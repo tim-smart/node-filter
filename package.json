@@ -1,20 +1,17 @@
 {
   "name": "filter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A stream filter for node, to create pipable filters for arbitary streams.",
   "repository": {
     "type": "git",
-    "url": "http://github.com/votizen/node-filter.git"
+    "url": "http://github.com/tim-smart/node-filter.git"
   },
   "main": "./",
   "bugs": {
-    "web": "http://github.com/votizen/node-filter/issues"
+    "web": "http://github.com/tim-smart/node-filter/issues"
   },
   "author": "Tim Smart <tim@fostle.com>",
   "licenses": [{
     "type": "MIT"
-  }],
-  "engines": {
-    "node": ">=0.4.1"
-  }
+  }]
 }

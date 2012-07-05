@@ -125,6 +125,8 @@ FilterStream.prototype.write = function (data) {
  * End method called by pipe()
  */
 FilterStream.prototype.end = function () {
+  this.writable = false;
+  this.readable = false;
   this.emit('end');
   this.emit('close');
 };
